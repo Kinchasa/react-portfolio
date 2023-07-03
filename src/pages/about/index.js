@@ -37,16 +37,15 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Experience</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="5">
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
                       <td>{data.date}</td>
                     </tr>
                   );
@@ -79,7 +78,9 @@ export const About = () => {
             })}
           </Col>
         </Row>
-        <Row className="sec_sp">
+     {
+     /* Adonis I commented this out! :) What's the best practice here?
+     <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">services</h3>
           </Col>
@@ -93,7 +94,8 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row>*/}
+    
       </Container>
     </HelmetProvider>
   );

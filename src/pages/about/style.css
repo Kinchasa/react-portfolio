@@ -19,7 +19,7 @@
 }
 
 .progress {
-    height: 5px;
+    height: 6px;
     background: var(--secondary);
     border-radius: 0;
     box-shadow: none;
@@ -30,7 +30,7 @@
 .progress .progress-bar {
     position: relative;
     background: var(--text-color);
-    animation: animate-positive 2s;
+    animation: animate-positive 3s;
     overflow: visible;
     opacity: 0.9;
 }
@@ -71,7 +71,7 @@
 }
 
 
-/*! CSS Used keyframes */
+/*! Adonis, how do I comment out the above services no longer needed? Also, how do I add more padding to the bottom?  CSS Used keyframes */
 
 @-webkit-keyframes fadeInUp {
     0% {

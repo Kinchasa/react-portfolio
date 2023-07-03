@@ -94,3 +94,7 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+.About-header {
+    padding-bottom: 10px;
+}

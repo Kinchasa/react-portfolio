@@ -1,69 +1,63 @@
-const logotext = "JOHN";
+const logotext = "TRDMRK";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "TRDMRK",
+    description: "Cinematic storytelling and editing.",
 };
 
+import trdmrkImage from "./assets/images/trdmrk-behind-scenes.png";
+
 const introdata = {
-    title: "I’m John Doe",
+    title: "TRDMRK MEDIA",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first:  "Music Video Shoots",
+        second: "World Class Editing",
+        third: "Milwaukee Roots",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Cinematic storytelling and editing.",
+    your_img_url: trdmrkImage,
+
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "My Approach",
+    aboutme: "Technique, chemistry and killer equipment are how I capture the best raw footage in camera. You bring the energy and the core vision and we'll make magic happen in post.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Making Beats",
+        date: "2001 - 2015",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Music Videos",
+        date: "2015 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "DP Director, Editor",
+        date: "2019 - Present",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    {
+      name: "Adobe Premiere",
+      value: 95,
     },
     {
-        name: "Djano",
-        value: 85,
+      name: "Adobe After Effects",
+      value: 90,
     },
     {
-        name: "Javascript",
-        value: 80,
+      name: "Photoshop",
+      value: 85,
     },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
+  ];
+  
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Video Shoot",
+        description: "Let's brainstorm and talk about your vision and any storyboarding you've done.",
     },
     {
-        title: "Mobile Apps",
+        title: "On-Site DP",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
@@ -73,84 +67,30 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        youtubeId: "WHGSxczg9lU",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        youtubeId: "JhJxqgpZw44",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        youtubeId: "KleD88jwZ8I",
+    },   
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    //YOUR_EMAIL: "trademarkmusic2323@gmail.com",
+    //YOUR_FONE: "(262) 490-0987",
+    description: "Give me a shout, let's see what we can do.",
+    YOUR_SERVICE_ID: "service_5w4v16g",
+    YOUR_TEMPLATE_ID: "template_q9ugics",
+    YOUR_USER_ID: "7XkbjE4BS3Mxl1Q9tQ2pf",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+
+    FaInstagram: "https://instagram.com/trademark_media/",
+    FaYoutube: "https://www.youtube.com/@TradeMarkMusic23/",
+
 };
 export {
     meta,
@@ -164,3 +104,4 @@ export {
     socialprofils,
     logotext,
 };
+
