@@ -54,11 +54,11 @@ const services = [{
     },
     {
         title: "On-Site DP",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Direction and scene setup.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Editing and SFX",
+        description: "Rough cuts, polished edits and special effects.",
     },
 ];
 

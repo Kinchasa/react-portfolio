@@ -8,7 +8,7 @@ import { dataportfolio, meta } from "../../content_option";
 // const listOfNames = ["Adonis is the Best", "Garett is ok part-time", "Zokdo was once here" ]
 
 // const personObject = {name: "Francis",
-//                       age: 26,
+//                       age: 55,
 //                     legalStatus: "Alien"}
 
 // const listOfPeople = [{name: "Francis", age: 26, legalStatus: "Alien"}, {name: "Garett", age: 36, legalStatus: "Too legit"}, {name: "Adonis", age: 21, legalStatus: "Citizen"}]
@@ -35,7 +35,7 @@ export const Portfolio = () => {
         <ul>{listOfPeople.map((whateever) => <li>{whateever.age}</li>)}</ul> */}
 
 {dataportfolio.map((musicVideos) => {
-    console.log(musicVideos.description);  // check the console for description value
+    console.log(musicVideos.description);
     return musicVideos.youtubeId && (
         <div className="video-container">
             {musicVideos.description && 
@@ -51,8 +51,6 @@ export const Portfolio = () => {
         </div>
     )
 })}
-
-
         
         {/* <div>
           {dataportfolio.map((musicVideos) => {
