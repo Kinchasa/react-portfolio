@@ -23,10 +23,6 @@ const dataabout = {
     aboutme: "Technique, chemistry and killer equipment are how I capture the best raw footage in camera. You bring the energy and the core vision and we'll make magic happen in post.",
 };
 const worktimeline = [{
-        jobtitle: "Making Beats",
-        date: "2001 - 2015",
-    },
-    {
         jobtitle: "Music Videos",
         date: "2015 - Present",
     },
@@ -67,15 +63,30 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        youtubeId: "WHGSxczg9lU",
+        youtubeId: "u45vFY-bHFk",
+        description: "Blueface - Hello TrdMrk // Edit and VFX // Directed by Vinny P"
+
+    },
+
+    {
+        youtubeId: "UZZiUPs-Acg",
+        description: "Soulja Boy ft T.I. Co Editor // Dir by T.i. // PhillyFlyboBoy"
+
+    },
+
+    {
+        youtubeId: "q6diayY2F44",
+        description: "Bubba Sparxxx // DP/Editor  // directed by Vinny P"
+
     },
     {
-        youtubeId: "JhJxqgpZw44",
-    },
-    {
-        youtubeId: "KleD88jwZ8I",
-    },   
+        youtubeId: "5-QiZCgcdJI",
+        description: "Young Buck - Editor // Dir Vinny P"
+
+    },      
 ];
+
+
 
 const contactConfig = {
     //YOUR_EMAIL: "trademarkmusic2323@gmail.com",

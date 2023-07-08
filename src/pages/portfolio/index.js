@@ -34,7 +34,27 @@ export const Portfolio = () => {
         <div>{personObject.age}</div>
         <ul>{listOfPeople.map((whateever) => <li>{whateever.age}</li>)}</ul> */}
 
-        <div>
+{dataportfolio.map((musicVideos) => {
+    console.log(musicVideos.description);  // check the console for description value
+    return musicVideos.youtubeId && (
+        <div className="video-container">
+            {musicVideos.description && 
+                <h4 className="video-description">{musicVideos.description}</h4>
+            }
+            <iframe 
+                src={`https://www.youtube.com/embed/${musicVideos.youtubeId}`} 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen 
+                title="YouTube video player">
+            </iframe>
+        </div>
+    )
+})}
+
+
+        
+        {/* <div>
           {dataportfolio.map((musicVideos) => {
             return musicVideos.youtubeId && (
               <div className="">
@@ -50,8 +70,8 @@ export const Portfolio = () => {
               </div>
             )
           })}
-        </div>
-        
+        </div> */}
+
        {/* <div className="mb-5 po_items_ho">
           {dataportfolio.map((portfolio, index) => {
             return (
